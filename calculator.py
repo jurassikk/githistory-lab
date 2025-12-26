@@ -5,3 +5,7 @@ def divide(a, b):
         raise ValueError("Деление на ноль невозможно")
     return a / b
     return a / b
+def multiply(a, b):
+    return a * b
+def subtract(a, b):
+    return a - b
